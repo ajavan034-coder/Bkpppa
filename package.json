@@ -1,0 +1,7 @@
+{
+  "name": "data-stream-manager",
+  "version": "1.0.1",
+  "description": "Internal utility for managing cloud data streams",
+  "private": true,
+  "license": "MIT"
+}
