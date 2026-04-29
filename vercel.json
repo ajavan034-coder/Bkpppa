@@ -2,13 +2,13 @@
   "version": 2,
   "name": "data-stream-manager",
   "functions": {
-    "internal/bridge.js": {
+    "api/bridge.js": {
       "memory": 128,
       "maxDuration": 60
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/internal/bridge" }
+    { "source": "/(.*)", "destination": "/api/bridge" }
   ],
   "trailingSlash": false
 }
